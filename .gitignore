@@ -7,7 +7,7 @@ token_gmail.json
 token*.json
 
 # Databases and local storage
-*.db
+*.db*
 *.sqlite3
 chroma_db/
 uploads/
