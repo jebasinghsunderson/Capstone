@@ -1,0 +1,28 @@
+# Environment and sensitive credential files
+.env
+*.env
+credentials.json
+token_drive.json
+token_gmail.json
+token*.json
+
+# Databases and local storage
+*.db
+*.sqlite3
+chroma_db/
+uploads/
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
